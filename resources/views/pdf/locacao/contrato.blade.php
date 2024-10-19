@@ -55,11 +55,11 @@
 
 <table style="width: 100%">
   <tr>
-    <td><img src="{{ asset('img/logo-motomaster.png') }}" alt="Image" height="60" width="180"></td>
-    <td> <p style="width: 100%; font-size:28px; font-weight: bold;" align="center">Locadora Motomaster</p>
-         <p style="font-size:16px;" align="center">Av. Cesário de Melo, nº 4030 Campo Grande - Rio de Janeiro - RJ.<br>
-                                                  Contato: (21)7402-1183<br>
-                                                  Email: erike@rdbled.com.br - CNPJ: 53-825-708/0001-48</p>
+    <td><img src="{{ asset('img/logo.png') }}" alt="Image" height="60" width="180"></td>
+    <td> <p style="width: 100%; font-size:28px; font-weight: bold;" align="center">Locadora Moto na Veia</p>
+         <p style="font-size:16px;" align="center">Estrada Santa Barbara, nº 28LJ - Miguel Couto - Nova Iguaçu - RJ.<br>
+                                                  Contato: (21)98065-1413<br>
+                                                  Email: motonaveia2024@gmail.com - CNPJ: 56.441.897/0001-43</p>
     </td>
 </tr>
 
@@ -207,7 +207,7 @@
 
 <table style="width: 100%">
     <tr>
-        <td><img src="{{ asset('img/logo-motomaster.png') }}" alt="Image" height="60" width="180"></td>
+        <td><img src="{{ asset('img/logo.png') }}" alt="Image" height="60" width="180"></td>
       <td> <p style="width: 100%; font-size:20px; font-weight: bold" align="center">Contrato de Locação de Veículos</p>
 
       </td>
@@ -217,7 +217,7 @@
 <div>
     <p class="parag">
         Registro: <b>{{$locacao->id}}</b><br><br>
-        Parte, locadora. Motomaster Campo Grande Ltda CNPJ 53.825.708/0001-48 Endereço: AV. Cesario de Melo 04030 denominado LOCADOR.<br><br>
+        Parte, locadora. Moto na Veia Ltda - CNPJ 56.441.897/0001-43 Endereço: Estrada Santa Barbara, nº 28LJ - Miguel Couto - Nova Iguaçu - RJ. denominado LOCADOR.<br><br>
 
 
         CLÁUSULA 1 DO OBJETO DO CONTRATO:<br>
@@ -383,7 +383,7 @@
         liberalidade, não importando em hipóteses de novação ou renúncia, permanecendo integralmente as cláusulas e condições aqui contratadas.<br>
         10.4. O LOCATÁRIO autoriza o LOCADOR a coletar, usar e divulgar sua imagem para fins de cadastro, defesa e/ou promoção.<br>
         10.5. O LOCATÁRIO concorda que sua assinatura no contrato, implica ciência e adesão por si, seus herdeiros/sucessores a estas cláusulas.<br>
-        10.6. Fica eleito o Foro desta cidade e Comarca de Rio de Janeiro RJ, como competente para dirimir quaisquer questões que possam
+        10.6. Fica eleito o Foro desta cidade e Comarca de Nova iguaçu RJ, como competente para dirimir quaisquer questões que possam
         aconselhar da aplicação do presente CONTRATO, por mais privilegiado que seja ou venha a ser, qualquer Foro.<br>
         10.7. E, por serem assim, justas e contratadas, as partes firmam o presente instrumento em 02 (duas) vias de igual teor e forma, para que produza
         seus efeitos legais, após ter lido o seu conteúdo ter sido claramente entendido e aceito.<br>
@@ -392,13 +392,13 @@
 
 </div><br><br>
 
-        <div style="text-align: center; font-size: 12">Rio de Janeiro, {{ $dataAtual->isoFormat('DD MMMM YYYY') }}<br><br><br><br>
+        <div style="text-align: center; font-size: 12">Nova Iguaçu, {{ $dataAtual->isoFormat('DD MMMM YYYY') }}<br><br><br><br>
 
             ___________________________________________________________<br>
             LOCATÁRIO: {{$locacao->Cliente->nome}}<br><Br><br><br>
 
             ___________________________________________________________<br>
-            LOCADOR: MOTOMASTER CAMPO GRANDE LTDA.
+            LOCADOR: MOTO NA VEIA LTDA.
 
 
 
