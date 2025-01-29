@@ -58,8 +58,8 @@
     <td><img src="{{ asset('img/logo.png') }}" alt="Image" height="60" width="180"></td>
     <td> <p style="width: 100%; font-size:28px; font-weight: bold;" align="center">Locadora Moto na Veia</p>
          <p style="font-size:16px;" align="center">Estrada Santa Barbara, nº 28LJ - Miguel Couto - Nova Iguaçu - RJ.<br>
-                                                  Contato: (21)98065-1413<br>
-                                                  Email: motonaveia2024@gmail.com - CNPJ: 56.441.897/0001-43</p>
+                                                  Contato:  (21)99538-2044<br>
+                                                  Email:  motonaveiaveiculos@gmail.com - CNPJ: 56.441.897/0001-43</p>
     </td>
 </tr>
 
