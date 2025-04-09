@@ -223,7 +223,7 @@
     <div>
         <p class="parag">
             Registro: <b>{{$locacao->id}}</b><br><br>
-            Parte, locadora. Moto na Veia Ltda - CNPJ 56.441.897/0001-43 Endereço: Estrada Santa Barbara, nº 28LJ - Miguel Couto - Nova Iguaçu - RJ. denominado LOCADOR.<br><br><br><br>
+            Parte, locadora. Moto na Veia Ltda - CNPJ 56.441.897/0001-43 Endereço: Estrada Santa Barbara, nº 28LJ - Miguel Couto - Nova Iguaçu - RJ. denominado LOCADOR.<br><br>
 
 
             CLÁUSULA 1 DO OBJETO DO CONTRATO:<br>
