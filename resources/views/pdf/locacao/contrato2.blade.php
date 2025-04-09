@@ -211,7 +211,7 @@
 
         <table style="width: 100%">
             <tr>
-                <td><img src="{{ asset('img/logo-motomaster.png') }}" alt="Image" height="60" width="180"></td>
+                <td><img src="{{ asset('img/logo.png') }}" alt="Image" height="60" width="180"></td>
                 <td>
                     <p style="width: 100%; font-size:20px; font-weight: bold" align="center">Contrato de Locação de Veículos</p>
                     <p style="width: 100%; font-size:16px; font-weight: bold" align="right; color:LightSlateGray">Plano Minha Moto</p>
