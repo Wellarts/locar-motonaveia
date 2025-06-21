@@ -164,11 +164,20 @@
             <b class="tx">Km de Saída:</b> {{$locacao->km_saida}}
         </td>
         <td>
+        @if($locacao->forma_locacao == 1)
             <b class="tx">Qtd de Diárias:</b> {{$locacao->qtd_diarias}}
-        </td>
-        <td colspan="2">
+        @elseif($locacao->forma_locacao == 2)
+            <b class="tx">Qtd de Semanas:</b> {{$locacao->qtd_semanas}}
+        @endif
+    </td>
+    <td colspan="2">
+        @if($locacao->forma_locacao == 1)
             <b class="tx">Valor da Diária R$:</b> {{$locacao->Veiculo->valor_diaria}}
-        </td>
+        @elseif($locacao->forma_locacao == 2)
+            <b class="tx">Valor da Semana R$:</b> {{$locacao->Veiculo->valor_semana}}
+        @endif
+    </td>
+
 
         </tr>
         <tr>
